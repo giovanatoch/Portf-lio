@@ -36,6 +36,14 @@ body div {
     z-index: 100;
 }
 
+.btn-abrir-menu {
+    display: none;
+}
+
+.overlay-menu {
+    display: none;
+}
+
 .logo {
     font-size: 25px;
     color: #fff;
@@ -188,9 +196,8 @@ body div {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10px 10% 0;
+    padding: 100px 10% 0;
     margin-top: 90px
-
 }
 
 .about h1 {
@@ -212,11 +219,11 @@ body div {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 70px 10% 0;
+    padding: 100px 10% 0;
 }
 
 .projects h3 {
-    font-size: 30px;
+    font-size: 25px;
     color:#8b3295;
     margin-bottom: 30px;
 }
@@ -224,7 +231,7 @@ body div {
 .projects-list {
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: center;
     align-content: center;
 }
@@ -432,7 +439,7 @@ body div {
 
 /* RESPONSIVO */
 
-@media screen and (max-width:1020px){
+@media screen and (max-width:1024px){
     .navbar {
         display: none;
     }
@@ -462,6 +469,10 @@ body div {
 
     .home-content .btn {
         width: 29vh;
+    }
+
+    .projects-list {
+        flex-wrap: wrap;
     }
     
     /* SECTION CONTATO */
@@ -528,6 +539,7 @@ body div {
     }
 
     .btn-abrir-menu {
+        display: flex;
         margin-left: 10px;
         font-size: 40px;
     }
