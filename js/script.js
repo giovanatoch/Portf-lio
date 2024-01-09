@@ -18,7 +18,7 @@ $('.navbar-mobile a').click(function (e){
 });
 
 $(document).ready(function(){
-    var cargos = ["Desenvolvedora Fron-End", "Analista de Suporte"];
+    var cargos = ["Desenvolvedora Front-End", "Analista de Suporte"];
     var atual = 0;
     $('.multiple-text').text(cargos[atual++]);
     setInterval(function() {
