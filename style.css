@@ -498,7 +498,11 @@ body div {
     /* SECTION ABOUT */
     .about {
         height: 100%;
-        margin-top: 120px;
+        margin-top: 215px;
+    }
+
+    .about h1 {
+        margin-top: 100px;
     }
 
     /* SECTION SKILLS */
@@ -527,7 +531,7 @@ body div {
     }
 
     .about p {
-        width: auto;
+        width: 335px;
     }
 }
 
