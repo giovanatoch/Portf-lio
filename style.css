@@ -84,7 +84,7 @@ body div {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    padding: 150px 10% 0;
+    padding: 190px 10% 0;
 }
 
 .home-content {
@@ -202,6 +202,7 @@ body div {
     font-size: 25px;
     color:#8b3295;
     margin-bottom: 30px;
+    margin-top: 90px;
 }
 
 .about p {
@@ -217,11 +218,11 @@ body div {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 100px 10% 0;
+    padding: 64px 10% 0;
 }
 
 .projects h3 {
-    font-size: 21px;
+    font-size: 26px;
     color:#8b3295;
     margin-bottom: 30px;
 }
@@ -243,6 +244,10 @@ body div {
     padding: 30px;
     margin: 15px 7px;
     transition: .5s ease;
+}
+
+.project-container h3 {
+    font-size: 20px;
 }
 
 .project-container:hover {
