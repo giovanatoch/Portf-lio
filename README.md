@@ -8,19 +8,13 @@ Este é meu primeiro Portfólio pessoal feito com HTML, CSS e JS, pude aprender 
 
 🛠️ Tecnologias Utilizadas:
 
-HTML
-
-CSS
-
-JavaScript
-
-CSS responsivo
-
-VsCode
-
-Git
-
-Outras tecnologias específicas de cada projeto listadas nos respectivos itens do portfólio
+• HTML
+• CSS
+• JavaScript
+• CSS responsivo
+• VsCode
+• Git
+• Outras tecnologias específicas de cada projeto listadas nos respectivos itens do portfólio
 
 🧠 Autor
 By Giovana Tochtrop
